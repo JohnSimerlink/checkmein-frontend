@@ -1,0 +1,25 @@
+
+get the user's location and print out the gps coordinates
+create a mongodb
+create a separate app for the node backend/API. have it print hello world
+create an events schema: id, center, radius, start time, end time, List<HashMap<attendee,checkinTime>
+create attendees schema: [email(mandatory), name, phone]
+
+create an an endpoint to create an event
+create an endpoint to retrieve/list all events
+create an endpoint to search for events (e.g. by passing in center and search radius and start time range)
+
+template that has list of events
+directive/controller for list of events - puts together data with template
+
+add webpack and everything in a systemized manner
+
+template that has list of attendees at event
+directive/controller to make check me in work
+
+template for attendees at event
+directive/controller to populate template with attendee data [no websocket yet]
+
+template to create event
+directive/controller for creating an event
+for now no privacy
