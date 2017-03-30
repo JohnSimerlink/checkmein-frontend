@@ -1,6 +1,6 @@
 import angular from 'angular'
 console.log('create event directive file used')
-function createEvent(){
+function createevent(){
   console.log('create event constructor called')
   return {
     restrict: 'E',
@@ -8,13 +8,13 @@ function createEvent(){
       name: "=",
       day: "=",//TODO: replace scope with a controller
     },
-    template: require('../templates/create-event.html')
+    template: require('../templates/createevent.html')
   }
 }
 
-const MODULE_NAME ='directives.createEvent'
+const MODULE_NAME ='directives.createevent'
 
 angular.module(MODULE_NAME, [])
-  .directive('create-event', createEvent)
+  .directive('createevent', createevent)
 
 export default MODULE_NAME

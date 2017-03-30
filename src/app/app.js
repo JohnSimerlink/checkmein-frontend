@@ -1,5 +1,6 @@
 import angular from 'angular'
 import createEvent from './directives/create-event.directive'
+console.log('createEvent in app.js is', createEvent)
 let app = () => {
   return {
     restrict: 'E', //TODO DO we always need this? firstapp2/src/app/app.js doesn't have it even though it is a directive
