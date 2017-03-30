@@ -1,6 +1,7 @@
 import angular from 'angular'
-
+console.log('create event directive file used')
 function createEvent(){
+  console.log('create event constructor called')
   return {
     restrict: 'E',
     scope: {
