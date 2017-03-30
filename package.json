@@ -1,0 +1,26 @@
+{
+  "name": "checkmein-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --history-api-fallback --inline --progress --host 0.0.0.0 --https"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnSimerlink/checkmein-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnSimerlink/checkmein-frontend/issues"
+  },
+  "homepage": "https://github.com/JohnSimerlink/checkmein-frontend#readme",
+  "dependencies": {
+    "angular": "^1.6.3",
+    "raw-loader": "^0.5.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0"
+  }
+}
